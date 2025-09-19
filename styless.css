@@ -26,6 +26,7 @@
 /* header item */
 .logo{
     margin-left: 100px;
+    height: 60px;
 }
 nav{
     display: flex;
@@ -61,10 +62,24 @@ nav{
     text-decoration: none;
 }
 .banner{
+    margin-top: 80px;
     margin-left: 50px;
     padding: 50px;
 }
 .banner-pic{
     padding: 50px;
-    height: 400px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .nav-linkss{
+        display: none;
+    }
 }
