@@ -85,6 +85,9 @@ nav{
 .type331 , .type332, .type333 {
     padding: 50px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .type331{
     background-image: linear-gradient(to bottom, #82C8E580, #ffffff80 , white );
