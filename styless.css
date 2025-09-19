@@ -71,8 +71,30 @@ nav{
     height: 500px;
 }
 
-
-
+/* THREE TYPES */
+.type3{
+    text-align: center;
+    margin: 30px;
+}
+.type33{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px;
+}
+.type331 , .type332, .type333 {
+    padding: 50px;
+    border-radius: 20px;
+}
+.type331{
+    background-image: linear-gradient(to bottom, #82C8E580, #ffffff80 , white );
+}
+.type332{
+    background-image: linear-gradient(to bottom, #FFDBBB80, #ffffff80 , white );
+}
+.type333{
+    background-image: linear-gradient(to bottom, #CF9FFF80, #ffffff80 , white );
+}
 
 
 
