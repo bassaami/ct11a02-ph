@@ -51,7 +51,6 @@ nav{
     height: 50px;
     width: 200px;
     color: white;
-    /* padding: 25px; */
     background-color: black;
 }
 .nav-item{
@@ -109,12 +108,12 @@ nav{
 .fa-solid{
     font-size: xx-large;
 }
-
+/* grid part */
 .card0{
             background-color: #ffffff; 
             border-radius: 18px;
             width: 500px;
-            height: 700px;
+            height: 600px;
             /* max-width: 360px; */
             overflow: hidden; /*  image top rounded corners */
             display: flex;
