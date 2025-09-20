@@ -109,39 +109,47 @@ nav{
 .fa-solid{
     font-size: xx-large;
 }
-/* The main card container */
-        .card {
-            background-color: #ffffff; /* Creamy white for the card background */
+
+.card0{
+            background-color: #ffffff; 
             border-radius: 18px;
-            /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); */
-            width: 100%;
-            max-width: 360px;
-            overflow: hidden; /* This is crucial to make the image conform to the top rounded corners */
+            width: 500px;
+            height: 700px;
+            /* max-width: 360px; */
+            overflow: hidden; /*  image top rounded corners */
+            display: flex;
+            flex-direction: column;
+        }
+.card {
+            background-color: #ffffff; 
+            border-radius: 18px;
+            width: 300px;
+            height: 300px;
+            /* max-width: 360px; */
+            overflow: hidden; /*  image top rounded corners */
             display: flex;
             flex-direction: column;
         }
         
-        /* The card's image */
-        .card-img {
+.card-img {
             width: 100%;
             height: auto;
-            display: block; /* Removes any extra space below the image */
+            display: block; /* Removes space below image */
         }
 
-        /* Container for the text content */
-        .card-content {
-            position: relative; /* Establishes a positioning context for the date badge */
-            padding: 45px 30px 30px 30px; /* Extra top padding to make space for the date badge */
+.card-content {
+            position: relative; /*  positioning context for date badge */
+            padding: 45px 30px 30px 30px; /* top padding space for date badge */
         }
         
-        /* The date badge - THE KEY PART */
-        .card-date {
+        /* date badge KEY PART */
+.card-date {
             position: absolute; /* Takes the element out of the normal document flow */
             top: 0; /* Aligns the top of the badge with the top of the .card-content area */
             left: 50%; /* Moves the badge's left edge to the horizontal center */
             transform: translate(-50%, -50%); /* Shifts the badge left by 50% of its own width and up by 50% of its own height to perfectly center it on the line */
             
-            background-color: #4dd0e1; /* Teal color from the image */
+            background-color: #02bfd8; 
             color: white;
             padding: 8px 20px;
             border-radius: 20px;
@@ -150,24 +158,45 @@ nav{
             white-space: nowrap; /* Ensures the date doesn't wrap to a new line */
         }
 
-        /* The card's title */
-        .card-title {
+        .card-title0{
             font-size: 1.5rem;
             font-weight: 700;
-            color: #333;
+            color: #000000;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+        .card-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #000000;
             margin-top: 0;
             margin-bottom: 1rem;
             line-height: 1.3;
         }
         
-        /* The card's description text */
         .card-description {
             font-size: 0.9rem;
-            color: #666;
+            color: #000000;
             line-height: 1.6;
             margin: 0;
         }
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 0;
+    /* margin: 50px; */
+}
+.stories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px;
+    margin-left: 100px;
+    height: 600px;
 
+}
 
 
 
