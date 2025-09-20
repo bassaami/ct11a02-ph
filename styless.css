@@ -236,6 +236,10 @@ nav{
 
 
 @media screen and (max-width: 576px){
+    .menu{
+        /* position: relative; */
+        display: block ;
+    }
     .nav-linkss{
         display: none;
     }
