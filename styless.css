@@ -83,6 +83,8 @@ nav{
 }
 .bg-pic{
     background-image: url("assets/bg.png");
+    background-image: url("assets/bg.png");
+    background-image: url("assets/bg.png");
     display: block;
 }
 .type331 , .type332, .type333 {
@@ -104,6 +106,7 @@ nav{
 .arrow{
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 .fa-solid{
     font-size: xx-large;
@@ -194,9 +197,10 @@ nav{
     margin: 50px;
     margin-left: 100px;
     height: 600px;
-
 }
-
+.bg-gradient{
+     background-image: linear-gradient(to top, #FFDBBB80, #ffffff80 , white );
+}
 
 
 
