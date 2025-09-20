@@ -215,8 +215,23 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: left;
-    
+    color: #ffffff;
 }
+.fnav-item{
+    padding: 10px;
+    color: #ffffff;
+    list-style: none;
+    /* margin-right: 30px; */
+}
+.fnav-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.foot-logo{
+    color: #ffffff;
+}
+
+
 @media screen and (max-width: 576px){
     .nav-linkss{
         display: none;
