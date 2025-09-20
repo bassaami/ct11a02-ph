@@ -82,6 +82,9 @@ nav{
     gap: 30px;
     margin: 50px;
 }
+.bg-pic{
+    background-image: url("assets/bg.png");
+}
 .type331 , .type332, .type333 {
     padding: 50px;
     border-radius: 20px;
@@ -98,7 +101,13 @@ nav{
 .type333{
     background-image: linear-gradient(to bottom, #CF9FFF80, #ffffff80 , white );
 }
-
+.arrow{
+    display: flex;
+    justify-content: center;
+}
+.fa-solid{
+    font-size: xx-large;
+}
 
 
 
