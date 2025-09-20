@@ -119,7 +119,7 @@ nav{
             width: 500px;
             height: 600px;
             /* max-width: 360px; */
-            overflow: hidden; /*  image top rounded corners */
+            overflow: hidden; 
             display: flex;
             flex-direction: column;
         }
@@ -141,16 +141,16 @@ nav{
         }
 
 .card-content {
-            position: relative; /*  positioning context for date badge */
-            padding: 45px 30px 30px 30px; /* top padding space for date badge */
+            position: relative; 
+            padding: 45px 30px 30px 30px; 
         }
         
         /* date badge KEY PART */
 .card-date {
-            position: absolute; /* Takes the element out of the normal document flow */
-            top: 0; /* Aligns the top of the badge with the top of the .card-content area */
-            left: 50%; /* Moves the badge's left edge to the horizontal center */
-            transform: translate(-50%, -50%); /* Shifts the badge left by 50% of its own width and up by 50% of its own height to perfectly center it on the line */
+            position: absolute; 
+            top: 0; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
             
             background-color: #02bfd8; 
             color: white;
@@ -158,7 +158,7 @@ nav{
             border-radius: 20px;
             font-size: 0.8rem;
             font-weight: 600;
-            white-space: nowrap; /* Ensures the date doesn't wrap to a new line */
+            white-space: nowrap; 
         }
 
         .card-title0{
